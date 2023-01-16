@@ -1,6 +1,6 @@
 const { Pool } = require('pg');
 
-const database = process.env.DATABASE  || 'heroe3'
+const database = process.env.DATABASE  || 'heroe5'
 const user = process.env.USER  || 'postgres'
 const password = process.env.PASSWORD  || '00000000'
 const host = process.env.HOST  || 'lohost'
